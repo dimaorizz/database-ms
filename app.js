@@ -6,7 +6,7 @@ const utils = require('./utils')
 const filename = "db.txt"
 let userCommand = '-1'; // used for menu
 
-console.log('Welcome to Database management system by Dmitry Kravtsov!\n') // greeting
+console.log('Welcome to Database management system by Dmitry Kravtsov!\nBefore you begin create make sure you have a db.txt in project root directory\n') // greeting
 
 do {
     console.log('1. Create\n2. Read\n3. Edit\n4. Delete\n0. Quit\n')
